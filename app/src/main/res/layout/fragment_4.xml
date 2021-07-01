@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="585dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="187dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:hint="Main Dairy"
+        android:textColorHint="#1C1C1C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="507dp"
+        android:layout_marginEnd="31.5dp"
+        android:layout_marginStart="31.5dp"
+        android:layout_marginTop="255dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:hint="Branch Name"
+        android:textColorHint="#1C1C1C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="439dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="323dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:hint="Milk Type"
+        android:textColorHint="#1C1C1C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="371dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="391dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:hint="Dairy ID"
+        android:textColorHint="#1C1C1C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="303dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="459dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:hint="Branch ID"
+        android:textColorHint="#1C1C1C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="235dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="527dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:hint="Contact No"
+        android:textColorHint="#1C1C1C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="139dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="595dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:hint="Address"
+        android:textColorHint="#1C1C1C"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#0A662F"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="SUBMIT"
+        android:textSize="16sp" />
+
+</RelativeLayout>

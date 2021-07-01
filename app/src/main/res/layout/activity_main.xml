@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="48dp"
+        android:background="#2699FB"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="   ADD Grahak"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="399dp"
+        android:layout_height="517dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="84dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#EC701A"
+        android:text="Personal Details"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="77dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#EC701A"
+        android:text="Address Details"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="77dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#EC701A"
+        android:text="Bank Details"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="84dp"
+        android:layout_height="47"
+        android:backgroundTint="#EC701A"
+        android:text="Button"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
